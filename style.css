@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#fafafa;
+    }
+}
+.titles{
+   text-align: center;
+    
+   
+}
+
+h1{
+ text-align: center;
+ font-size: 35px;
+   
+    }
+    .tit{
+        text-align: center;
+        font-size: 31PX;
+        margin-top: 40px;
+    }
+
+    p{
+        text-align: center;
+    }
+section{
+display:grid;
+grid-template-columns: 1fr 1fr  1fr;
+grid-gap: 10px;
+padding:6% ; 
+justify-items: center;
+}
+
+.partie1,.partie2,.partie3,.partie4{
+    background-color: white;
+    /* margin: 3%;
+    margin-right: 30px; */
+    box-sizing: border-box;
+    height: 250px;
+    width: 350px;
+    padding: 25px;
+    box-shadow: 2PX  5PX 10PX grey ;
+    
+}
+.partie1{
+    border-top:5px solid hsl(180, 62%, 55%) ;
+    border-radius: 10px;
+    align-self: center;
+    
+  
+}
+.partie2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    
+}
+.partie3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.partie4{
+    border-top: 5px solid  hsl(212, 86%, 64%);
+    border-radius:10px ;
+    align-self: center;
+    /* margin-top:30%; */
+}
+.imag{
+    float:right;
+    margin-left:20%;
+    margin-top: 15%;
+   
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:375px){
+    /* section{
+        display:block;
+        
+        padding:6% ; 
+        margin-left:7% ;
+        }
+        p{
+            text-align: center;
+            max-width: 100VW;
+            margin-left: 70px;
+        } */
+
+        /* section{
+            display:grid;
+            grid-template-columns: 1fr 1fr  1fr;
+            grid-gap: 10px;
+            padding:6% ; 
+            justify-items: center;
+            } */
+    section {
+        grid-template-columns: 1fr;
+        padding: 0%;
+    }
+    
+    .partie1,.partie2,.partie4{
+        margin-top: 35px;
+    }
+
+    p{
+        font-size: 10px;
+    } 
+
+    h1 {
+        font-size: 20px;
+    }
+    .tit {
+        font-size: 20px;
+    }
+}
